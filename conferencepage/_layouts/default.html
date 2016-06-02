@@ -3,18 +3,20 @@
 
   {% include head.html %}
 
-  <body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    {% include header.html %}
+    {{page.content}}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-    {% include footer.html %}
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-  </body>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
 
 </html>
