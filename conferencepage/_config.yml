@@ -10,10 +10,9 @@ title: Gas in Galaxies
 email: spardy@astro.wisc.edu
 description: > # this means to ignore newlines until "baseurl:"
   A conference exploring the origins and evolutions of gas in galaxies.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/_site" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
+collections:
+  - sections
 # Build settings
 markdown: kramdown

@@ -3,44 +3,44 @@
   <title>Gas in Galaxies</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-  .affix {
-      top: 0;
-      width: 100%;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 0px;
-  }
-  </style>
-
     <!-- Custom CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
-
-<div class="container-fluid" style="background-image:url(/resources/MaltaParadisebeach.jpg);color:#fff;height:400px;background-size: 100%;">
-<p><h1>{{ site.title }}</h1> <h2> October 2017 - Malta </h2></p>
+<div id="topcontainer" class="container-fluid text-center">
+  <h1>{{ site.title }}</h1> <h2> October 2017 - Malta </h2>
 </div>
 
-<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="400">
-  <ul class="nav navbar-nav">
-      <li class="hidden">
-          <a class="page-scroll" href="#page-top"></a>
-      </li>
-      <li>
-          <a class="page-scroll" href="#">Home</a>
-      </li>
-      {% for post in site.posts reversed %}
-        <li>
-          <a class="page-scroll" href="#{{post.title | downcase}}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
+<div id="navbar">
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a href="#page-top" class="page-scroll navbar-brand">Home</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          {% assign sorted_pages = site.sections | sort:"order" %}
+          {% for page in sorted_pages %}
+            <li>
+              <a class="page-scroll" href="#{{page.title | downcase}}">{{ page.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div><!-- /.navbar -->
+<div class="row">
+  <div id="topBlock" class='row-xs-12 hidden'></div>
+</div>
 
 
-  </ul>
-</nav>
+
 
 
 </head>

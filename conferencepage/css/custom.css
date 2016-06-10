@@ -1,0 +1,116 @@
+
+html {
+    display: table;
+    margin: auto;
+    height: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: white;
+    height: 100%;
+}
+
+h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; }
+
+
+h2 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 40px; font-weight: 700; line-height: 48px; margin: 0 0 24px; padding: 0 30px; text-align: center; text-transform: uppercase; }
+
+
+p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 28px; margin: 0 0 48px; }
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.A-section {
+    max-width: 1280px;
+    padding-top: 100px;
+    min-height: 500px;
+    vertical-align: center;
+    background: #E0E0E0;
+}
+
+.B-section {
+    max-width: 1280px;
+    padding-top: 100px;
+    min-height: 500px;
+    vertical-align: center;
+    background: white;
+}
+
+footer {
+    background: white;
+}
+
+
+@media(min-width:767px) {
+    #topcontainer {
+        background-image: url(../resources/StJuliansBayMalta.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-align: center;
+        position: relative;
+        height: 500px;
+        color: #fff;
+    }
+
+    h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px;
+         margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; }
+    h2 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 40px; font-weight: 700; line-height: 40px;
+         margin: 0 0 24px; padding: 0 30px; text-align: center; text-transform: uppercase; }
+    #navbar {
+        height: 50px;
+    }
+
+    #navbar.affix {
+        position: fixed;
+        top: 0;
+        z-index:10;
+        height: 50px;
+    }
+
+}
+
+@media(max-width: 767px){
+    h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 48px; font-weight: 700; line-height: 48px;
+         margin: 0 0 0; padding: 20px 20px; text-align: center; text-transform: uppercase; }
+    h2 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 20px; font-weight: 700; line-height: 20px;
+         margin: 0 0 20px; padding: 0 20px; text-align: center; text-transform: uppercase; }
+
+    #navbar.affix {
+        position: fixed;
+        top: 0;
+        z-index:10;
+        width: 100%;
+    }
+
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1;
+    border-top: 1px solid #eeeeee;
+    color: black;
+    height: 1px;
+    background-color:black;
+    width: 60%;
+}
+
+#topBlock.row-xs-12.hidden {
+    min-height: 0px;
+}
+#topBlock.row-xs-12 {
+    min-height: 50px;
+}
