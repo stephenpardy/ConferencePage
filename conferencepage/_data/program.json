@@ -1,0 +1,27 @@
+[{
+    "date": "Monday, 2 October 2017",
+    "schedule": [{
+        "name" : "Session 1 : The MW and its dark side",
+        "schedule": [{
+            "time": "09:45-10:15",
+            "name": "Freeman Ken",
+            "summary": "The Milky Way and its components - Overview"
+            },
+            {
+            "time": "10:15-10:45",
+            "name": "Freeman Wen",
+            "summary": "Diving More Deep"
+            }]
+    }]
+},
+{
+    "date": "Tuesday, 3 October 2017",
+    "schedule": [{
+        "name" : "Session 1 : M31 - A whole other galaxy!",
+        "schedule": [{
+            "time": "09:45-10:15",
+            "name": "Freeman Ben",
+            "summary": "M31 and its components - Overview"
+            }]
+    }]
+}]

@@ -8,7 +8,9 @@
     <link href="css/custom.css" rel="stylesheet">
 
 <div id="topcontainer" class="container-fluid text-center">
-  <h1>{{ site.title }}</h1> <h2> October 2017 - Malta </h2>
+  <span class='sitetitle'><h1 class='sitetitle'>{{ site.title | slice: 0,18 }}<br>
+        {{ site.title | slice: 18,16 }}</h1>
+  </span>
 </div>
 
 <div id="navbar">
@@ -27,7 +29,7 @@
           {% assign sorted_pages = site.sections | sort:"order" %}
           {% for page in sorted_pages %}
             <li>
-              <a class="page-scroll" href="#{{page.title | downcase}}">{{ page.title }}</a>
+              <a class="page-scroll" href="#{{page.link | downcase}}">{{ page.title }}</a>
             </li>
           {% endfor %}
         </ul>
