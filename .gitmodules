@@ -1,0 +1,3 @@
+[submodule "conferencepage/_plugins/.jekyll-page-collections"]
+	path = conferencepage/_plugins/.jekyll-page-collections
+	url = git@github.com:jeffkole/jekyll-page-collections.git
