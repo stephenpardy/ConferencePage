@@ -1,0 +1,24 @@
+---
+layout: default
+title: Local Information
+collection_order: 3
+---
+
+{% assign sorted_pages = site.collections[page.collection_order].docs | sort:"order"  %}
+{% for _page in sorted_pages %}
+{% capture sectionCycle %}{% cycle 'A-section', 'B-section' %}{% endcapture %}
+<section id={{ _page.link | downcase}} class="{{ sectionCycle }}">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+              <h2>{{ _page.title }}</h2>
+            </div>
+        </div> <!-- row -->
+
+        {{ _page.content }}
+
+    </div>
+</section>
+<hr />
+
+{% endfor %}

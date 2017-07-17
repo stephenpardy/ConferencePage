@@ -1,0 +1,67 @@
+[
+{
+    "FirstName": "Filippo",
+    "LastName": "Fraternali",
+    "Affil": "University of Bologna"
+},
+{
+    "LastName": "Bigiel",
+    "FirstName": "Frank",
+    "Affil": "University of Heidelberg"
+},
+{
+    "FirstName": "Francoise",
+    "LastName": "Combes",
+    "Affil": "Paris Observatory"
+},
+{
+    "LastName": "Bland-Hawthorn",
+    "FirstName": "Joss",
+    "Affil": "University of Sydney"
+},
+{
+    "FirstName": "Florent",
+    "LastName": "Renaud",
+    "Affil": "University of Surrey"
+},
+{
+    "FirstName": "Ken C.",
+    "LastName": "Freeman",
+    "Affil": "Australian National University"
+},
+{
+    "FirstName": "Leslie",
+    "LastName": "Hunt",
+    "Affil": "INAF/Osservatorio Astrofisico di Arcetri"
+},
+{
+    "FirstName": "Eva",
+    "LastName": "Schinnerer",
+    "Affil": "Max Planck Institute for Astronomy"
+},
+{
+    "FirstName": "Mary",
+    "LastName": "Putman",
+    "Affil": "Columbia University*"
+},
+{
+    "FirstName": "Marcella",
+    "LastName": "Carollo",
+    "Affil": "ETH Zürich"
+},
+{
+    "FirstName": "Simon",
+    "LastName": "Lilly",
+    "Affil": "ETH Zürich"
+},
+{
+    "FirstName": "Phil",
+    "LastName": "Hopkins",
+    "Affil": "Caltech"
+},
+{
+    "FirstName": "Andrew",
+    "LastName": "Fox",
+    "Affil": "STScI"
+}
+]

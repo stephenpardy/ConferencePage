@@ -1,0 +1,5 @@
+# Site settings
+
+baseurl: "/_site" # the subpath of your site, e.g. /blog
+
+
