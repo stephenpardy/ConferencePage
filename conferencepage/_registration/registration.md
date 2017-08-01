@@ -5,13 +5,11 @@ order: 1
 layout: section
 ---
 
- If you would like to attend please fill out the registration form below. To complete your registration, please fill out your payment information at the University of Malta website: [um.edu.mt/conferenceunit/rggd2017](https://www.um.edu.mt/conferenceunit/rggd2017).
-
- Abstracts are due by the first of August and we expect to announce the conference program on the fifteenth of August.
+#### Thank you to everyone who submitted an abstract. Abstract submission is now closed, and we expect to announce the conference program by the fifteenth of August. To complete your registration, please fill out your payment information at the University of Malta website: [um.edu.mt/conferenceunit/rggd2017](https://www.um.edu.mt/conferenceunit/rggd2017).
 
 <h3> Deadlines: </h3>
 <h5> Early payment deadline - Saturday 01 July 2017 Midnight CET</h5>
-<h4> Application and abstract deadline - Tuesday 01 August 2017 Midnight CET</h4> - All abstracts must be submitted by this time to be fully considered.
+<h5> Application and abstract deadline - Tuesday 01 August 2017 Midnight CET</h5>
 <h4> Travel grant application deadline - Tuesday 15 August 2017 </h4>
 <h4> Late payment deadline - Friday 01 September 2017 Midnight CET</h4>
 
