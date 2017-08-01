@@ -5,15 +5,27 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar">
 
-    {{page.content}}
+    {{ page.content }}
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- CDN with local fallback: http://stackoverflow.com/a/26198380  -->
+    <!-- jQuery CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- jQuery local fallback -->
+    <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/jquery.js"><\/script>')</script>
+    <!-- Bootstrap JS CDN -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS local fallback -->
+    <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="{{ site.baseurl }}/js/bootstrap.min.js"><\/script>')}</script>
+    <!-- Bootstrap CSS local fallback -->
+    <script>
+        $(document).ready(function() {
+        var bodyColor = $('body').css('color');
+        if(bodyColor != 'rgb(51, 51, 51)') {
+        $("head").prepend('<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">');}});
+    </script>
     <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.easing.min.js"></script>
+    <script src="{{ site.baseurl }}/js/scrolling-nav.js"></script>
 
     {% include footer.html %}
 

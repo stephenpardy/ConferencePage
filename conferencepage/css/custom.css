@@ -1,4 +1,5 @@
-
+---
+---
 html {
     display: table;
     margin: auto;
@@ -23,6 +24,9 @@ hr.SOC {
     width: 90%;
 }
 
+.col-date {
+    min-height: 35px;
+}
 
 .row-centered {
     text-align:center;
@@ -31,25 +35,59 @@ hr.SOC {
     display:inline-block;
     float:none;
     /* reset the text-align */
-    text-align:left;
+    text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
+}
+.col-centered2 {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    vertical-align: top;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-left {
+    text-align: left;
+}
+
+@media(min-width:1000px) {
+    .nav-align-right {
+        float: right;
+        text-align: right;
+    }
 }
 
 .A-section {
     max-width: 1280px;
-    padding-top: 75px;
+    padding-top: 60px;
     min-height: 500px;
     vertical-align: center;
-    background: #E0E0E0;
+    background: #F0F0F0;
 }
 
 .B-section {
     max-width: 1280px;
-    padding-top: 75px;
+    padding-top: 60px;
     min-height: 500px;
     vertical-align: center;
     background: white;
+}
+
+@media(max-width: 1000px){
+    .A-section {
+        padding-top: 100px;
+    }
+
+    .B-section {
+        padding-top: 100px;
+    }
+
+    .col-date {
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+
 }
 
 footer {
@@ -58,8 +96,13 @@ footer {
 
 
 @media(min-width:767px) {
+    .footer-row {
+        margin-top: 20px;
+    }
+
+
     #topcontainer {
-        background-image: url(../resources/cover_image_small_gas.jpg);
+        background-image: url({{ site.baseurl }}/resources/cover_image_small_gas.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;

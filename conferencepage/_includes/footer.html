@@ -1,10 +1,25 @@
 <footer class="site-footer">
   <div class="wrapper">
     <div class="container">
-    <h3 class="footer-heading">{{ site.title }}</h3>
       <div class="row">
-        <div class="col-md-6">
-          <p>Cover image: Joseph Caruana (University of Malta), GLIMPSE</p>
+        <div class="col-md-3">
+          <h3 class="footer-heading">{{ site.title }}</h3>
+          <p style='text-align: left'>Cover image: Joseph Caruana (University of Malta), GLIMPSE
+          Questions/Comments: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+        <h3>Sponsors:</h3>
+          <div class="row">
+            <div class="col-md-2">
+              {% include RAS_logo.html %}
+            </div>
+            <div class="col-md-4">
+            <a href="http://www.mdpi.com/journal/galaxies"><img src="{{ site.baseurl }}/resources/galaxies_partnership-01.png" class="img-responsive" alt="Galaxies by MDPI"></a>
+            </div>
+            <div class="col-md-4">
+            <a href="https://www.nature.com/natastron/?WT.mc_id=CON_NAST_1705_Gas_in_Galaxy_Dynamics"><img src="{{ site.baseurl }}/resources/Nature-Astronomy-CMYK.png" class="img-responsive" alt="Nature Astronomy"></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

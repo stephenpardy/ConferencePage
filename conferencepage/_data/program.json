@@ -1,27 +1,45 @@
 [{
     "date": "Monday, 2 October 2017",
     "schedule": [{
-        "name" : "Session 1 : The MW and its dark side",
-        "schedule": [{
-            "time": "09:45-10:15",
-            "name": "Freeman Ken",
-            "summary": "The Milky Way and its components - Overview"
-            },
-            {
-            "time": "10:15-10:45",
-            "name": "Freeman Wen",
-            "summary": "Diving More Deep"
-            }]
+        "name": "Session 1: Plenary Talk"
+    },
+    {
+        "name": "Session 2: Scaling Relations"
+    },
+    {
+        "name": "Session 3: Gas as a dynamical tracer at low z"
     }]
 },
 {
     "date": "Tuesday, 3 October 2017",
     "schedule": [{
-        "name" : "Session 1 : M31 - A whole other galaxy!",
-        "schedule": [{
-            "time": "09:45-10:15",
-            "name": "Freeman Ben",
-            "summary": "M31 and its components - Overview"
-            }]
+        "name": "Session 4: The role of gas in disk galaxies"
+    },
+    {
+        "name": "Session 5: Gas in the Milky Way"
+    }]
+},
+{
+    "date": "Wednesday, 4 October 2017",
+    "schedule": [{
+        "name": "Session 6: The circulation of gas in galaxies"
+    }]
+},
+{
+    "date": "Thursday, 5 October 2017",
+    "schedule": [{
+        "name": "Session 7: The role of gas in galaxy mergers"
+    },
+    {
+        "name": "Session 8: Gas in satellite galaxies"
+    }]
+},
+{
+    "date": "Friday, 6 October 2017",
+    "schedule": [{
+        "name": "Session 9: Quenching of galaxies"
+    },
+    {
+        "name": "Session 10: Quenching of galaxies"
     }]
 }]

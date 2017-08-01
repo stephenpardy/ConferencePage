@@ -12,6 +12,7 @@ layout: section
 <h3> Deadlines: </h3>
 <h5> Early payment deadline - Saturday 01 July 2017 Midnight CET</h5>
 <h4> Application and abstract deadline - Tuesday 01 August 2017 Midnight CET</h4> - All abstracts must be submitted by this time to be fully considered.
+<h4> Travel grant application deadline - Tuesday 15 August 2017 </h4>
 <h4> Late payment deadline - Friday 01 September 2017 Midnight CET</h4>
 
 
