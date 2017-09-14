@@ -39,3 +39,10 @@ This conference will bring together world leading experts in galaxy dynamics and
     </li>
 </ul> <!-- row -->
 
+### Posters:
+
+#### Posters should be no larger than an A0 page (841 x 1189 mm).
+
+### Talks:
+
+#### Contributed talks will be 15 minutes long (including time for questions).

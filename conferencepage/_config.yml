@@ -17,7 +17,7 @@ collections:
   - registration
   - motivation
   - location
+  - program
 # Build settings
 markdown: kramdown
-subsections: ['registration', 'location', 'motivation']
 
