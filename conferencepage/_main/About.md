@@ -7,8 +7,7 @@ layout: section
 
 <h3>{{ site.title }}<br>October 2-6, 2017 - Valletta, Malta </h3>
 
-<h4> Late payment deadline - 01 September 2017</h4>
-<h4> Application and abstract deadline - 01 August 2017</h4>
+<h4> Conference registrations are now closed.</h4>
 
 This conference will bring together world leading experts in galaxy dynamics and cosmology in order to promote collaborative efforts across theoretical, computational, and observational disciplines to try to answer to fundamental questions about the role of gas in galaxy dynamics and evolution. For a full description please see the [motivation]({{ site.baseurl }}/motivation).
 
