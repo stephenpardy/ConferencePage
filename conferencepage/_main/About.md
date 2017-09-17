@@ -39,6 +39,8 @@ This conference will bring together world leading experts in galaxy dynamics and
     </li>
 </ul> <!-- row -->
 
+The conference will also present a public event: [The Life of Galaxies](http://bit.ly/LoGalaxies2017).
+
 ### Posters:
 
 #### Posters should be no larger than an A0 page (841 x 1189 mm).
