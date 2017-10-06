@@ -3,6 +3,6 @@
 ### Technology:
 
 - Engine: Jekyll
-- Templating: bootstrap
+- Component Library: bootstrap
 - Original Template: startbootstrap-scrolling-nav
 - Hosting: AWS S3
