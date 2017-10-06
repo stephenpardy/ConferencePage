@@ -1,0 +1,61 @@
+---
+title:  "Program"
+link: "Program"
+order: 2
+layout: section
+---
+
+<p> We are pleased to announce the full conference program. Note: Due to cancellations and/or technical difficulties we may have to change the program throughout the week. Please refresh the page or the re-download the PDF version for the most up-to-date program.</p>
+
+<p><b><a href={{ site.baseurl }}/resources/program.pdf>PDF Version</a></b></p>
+
+<h3>Schedule of talks</h3>
+
+{% for day in site.data.program %}
+    <div class="row"  style="border: 1px solid #111">
+      <div class="col-sm-12 col-md-2 col-date">
+        <p class="text-center"><h4>{{ day.date }}</h4></p>
+      </div>
+      <div class="col-sm-12 col-md-10">
+        {% for session in day.schedule %}
+          {% if forloop.last == false %}
+            <div class="row" style="border: 1px none #111; border-bottom-style: solid; background:#F0F0F0">
+          {% else %}
+            <div class="row" style="border: 1px none #111; background:#F0F0F0">
+          {% endif %}
+            <div class="col-sm-12">
+              {% if session.chair %}
+                <p class="text-center"><h5>{{ session.name }} - Chair: {{ session.chair }}</h5></p>
+              {% else %}
+                <p class="text-center"><h5>{{ session.name }}</h5></p>
+              {% endif %}
+            </div>
+          </div>
+          {% for talk in session.schedule %}
+            {% if forloop.last == false %}
+              <div class="row" style="border: 1px none #111; border-bottom-style: solid">
+            {% else %}
+              <div class="row" style="border: 1px none #111">
+            {% endif %}
+              <div class="col-sm-3 col-xs-4">
+                <p class="text-center"> {{ talk.time }} </p>
+              </div>
+              <div class="col-sm-4 col-xs-8">
+                <p class="text-center"> {{ talk.name }}</p>
+                {% assign lastname = talk.name | split: ' '  | last | replace "'", ""  %}
+              </div>
+              <div class="col-sm-5">
+                <p class="text-center"> {{ site.data.titles[lastname] }} </p>
+              </div>
+          </div>
+          {% endfor %}
+        {% endfor %}
+
+
+      </div>
+    </div>
+
+
+{% endfor %}
+
+
