@@ -1,7 +1,7 @@
 ---
 title:  "Participants"
 link: "participants"
-order: 2
+order: 3
 layout: section
 ---
 
@@ -12,9 +12,24 @@ layout: section
   <div class="col-sm-6">
     <ul>
       {% for person in sortedParticipants limit:n %}
-        <li class='participant'> {{ person.FirstName }} {{ person.LastName }} - {{ person.Affil }}
-        {% if person.Title != 'NaN' %}
-        <br> <b>Title:</b> {{ person.Title }}
+        <li class='participant {{ person.Type }}'> {{ person.FirstName }} {{ person.LastName }} - {{ person.Affil }}
+        {% if person.Type == 'i' %}<br> <b> Invited Talk </b>
+        {% else %}
+          {% if person.Type != 'n' %}<br> <b>
+            {% case person.Type %}
+              {% when 'p' %}
+                Poster 
+              {% when 't' %}
+                Talk 
+              {% else %}
+            {% endcase %}
+          Title:</b>
+            {% if person.Title != 'NaN' %}
+              {{ person.Title }}
+            {% else %}
+              TBD
+            {% endif %}
+          {% endif %}
         {% endif %}
         </li>
       {% endfor %}
@@ -23,9 +38,24 @@ layout: section
   <div class="col-sm-6">
     <ul>
       {% for person in sortedParticipants offset:n %}
-        <li class='participant'> {{ person.FirstName }} {{ person.LastName }} - {{ person.Affil }}
-        {% if person.Title != 'NaN' %}
-        <br> <b>Title:</b> {{ person.Title }}
+        <li class='participant {{ person.Type }}'> {{ person.FirstName }} {{ person.LastName }} - {{ person.Affil }}
+        {% if person.Type == 'i' %}<br> <b> Invited Talk </b>
+        {% else %}
+          {% if person.Type != 'n' %}<br> <b>
+            {% case person.Type %}
+              {% when 'p' %}
+                Poster 
+              {% when 't' %}
+                Talk 
+              {% else %}
+            {% endcase %}
+          Title:</b>
+            {% if person.Title != 'NaN' %}
+              {{ person.Title }}
+            {% else %}
+              TBD
+            {% endif %}
+          {% endif %}
         {% endif %}
         </li>
       {% endfor %}

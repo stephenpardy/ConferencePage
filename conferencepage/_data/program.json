@@ -1,45 +1,265 @@
 [{
     "date": "Monday, 2 October 2017",
     "schedule": [{
-        "name": "Session 1: Plenary Talk"
+        "name": "Plenary Talks",
+        "chair": "George Lake",
+        "schedule": [
+            {"time": "9:00-9:45", "name": "J. Bland-Hawthorn"},
+            {"time": "9:45-10:30", "name": "F. Combes"}
+        ]
     },
     {
-        "name": "Session 2: Scaling Relations"
+        "name": "Scaling Relations",
+        "chair": "Aaron Dutton",
+        "schedule": [
+            {"time": "11:00-11:30", "name": "F. Bigiel (I)"},
+            {"time": "11:30-11:45", "name": "A. Bolatto"},
+            {"time": "11:45-12:00", "name": "A. Escala"},
+            {"time": "12:00-12:15", "name": "G. Meurer"},
+            {"time": "12:15-12:30", "name": "F. Lelli"}
+        ]
     },
     {
-        "name": "Session 3: Gas as a dynamical tracer at low z"
+        "name": "Gas as a dynamical tracer",
+        "chair": "P. van der Kruit",
+        "schedule": [
+            {"time": "14:00-14:30", "name": "M. Carollo (I)"},
+            {"time": "14:30-14:45", "name": "M. Bureau"},
+            {"time": "14:45-15:00", "name": "J. Knapen"},
+            {"time": "15:00-15:15", "name": "L. Chemin"},
+            {"time": "15:15-15:30", "name": "T. Davis"},
+            {"time": "15:30-15:45", "name": "D. Espada"},
+        ]
+    },
+    {
+        "name": "Coffee (16:00-16:30)"
+    },
+    {
+        "name": "Gas as a dynamical tracer (continued)",
+        "chair": "P. van der Kruit",
+        "schedule":[
+            {"time": "16:30-16:45", "name": "K. Masters"},
+            {"time": "16:45-17:00", "name": "R. Schoenrich"},
+            {"time": "17:00-17:15", "name": "M. Du"},
+            {"time": "17:15-17:30", "name": "A. Lupi"}
+        ]
     }]
 },
 {
     "date": "Tuesday, 3 October 2017",
     "schedule": [{
-        "name": "Session 4: The role of gas in disk galaxies"
+        "name": "Gas as a dynamical tracer (continued)",
+        "chair": "Mauro Giavalisco",
+        "schedule": [
+            {"time": "9:00-9:15", "name": "M. Den Brok"},
+            {"time": "9:15-9:30", "name": "P. Tissera"},
+            {"time": "9:30-9:45", "name": "S. Erroz-Ferrer"},
+            {"time": "9:45-10:00", "name": "T. Zana"},
+            {"time": "10:00-10:15", "name": "S. Kruk"},
+            {"time": "10:15-10:30", "name": "T. Signorini-Goncalves"}
+        ]
     },
     {
-        "name": "Session 5: Gas in the Milky Way"
+        "name": "Coffee (10:30-11:00)"
+    },
+    {
+        "name": "The role of gas in galaxies and in the Milky Way",
+        "chair": "Mauro Giavalisco",
+        "schedule": [
+            {"time": "11:00-11:30", "name": "I.-Ting Ho (I)"},
+            {"time": "11:30-11:45", "name": "I. Perez"},
+            {"time": "11:45-12:00", "name": "K. Spekkens"},
+            {"time": "12:00-12:15", "name": "S. Ghosh"},
+            {"time": "12:15-12:30", "name": "D. DeFelippis"}
+        ]
+    },
+    {
+        "name": "Lunch Break",
+        "schedule": [
+            {"time": "12:45-13:45", "name": "Dr. Christine Muscat"}
+        ]
+    },
+    {
+        "name": "The role of gas in galaxies and in the Milky Way (continued)",
+        "chair": "Isabel Perez",
+        "schedule": [
+            {"time": "14:00-14:15", "name": "L. Posti"},
+            {"time": "14:15-14:30", "name": "V. Debattista"},
+            {"time": "14:30-14:45", "name": "M. Sormani"},
+            {"time": "14:45-15:00", "name": "E. Di Teodoro"},
+            {"time": "15:00-15:15", "name": "D. Krishnarao"},
+            {"time": "15:15-15:30", "name": "J. Koda"},
+            {"time": "15:30-15:45", "name": "K. Tchernyshyov"},
+            {"time": "15:45-16:00", "name": "D. Ward-Thompson"}
+        ]
+    },
+    {
+        "name": "Coffee (16:00-16:30)"
+    },
+    {
+        "name": "The role of gas in galaxies and in the Milky Way (continued)",
+        "chair": "Isabel Perez",
+        "schedule": [
+            {"time": "16:30-16:45", "name": "Y. Gao"},
+            {"time": "16:45-17:00", "name": "M. Gallagher"}
+        ]
+    },
+    {
+        "name": "Gas flows in galaxies: inflows, local outflows and galactic winds",
+        "chair": "Tom Oosterloo",
+        "schedule": [
+            {"time": "17:00-17:30", "name": "F. Fraternali (I)"},
+            {"time": "17:30-17:45", "name": "T. Starkenburg"}
+        ]
+    },
+    {
+        "name": "Drink reception at German-Maltese Circle, Messina Palace, 141 St. Christopher Str. (18:30-20:30)"
     }]
 },
 {
     "date": "Wednesday, 4 October 2017",
     "schedule": [{
-        "name": "Session 6: The circulation of gas in galaxies"
+        "name": "Gas flows in galaxies: inflows, local outflows and galactic winds (continued)",
+        "chair": "Luis Ho",
+        "schedule": [
+            {"time": "9:00-9:15", "name": "I-Ting Ho"},
+            {"time": "9:15-9:30", "name": "G. Roberts-Borsani"},
+            {"time": "9:30-9:45", "name": "V. Semenov"},
+            {"time": "9:45-10:00", "name": "T. Oosterloo"},
+            {"time": "10:00-10:15", "name": "A. Pizzella"},
+            {"time": "10:15-10:30", "name": "P. Biernacki"}
+        ]
+    },
+    {
+        "name": "Coffee (10:30-11:00)"
+    },
+    {
+        "name": "The Circum-Galactic Medium",
+        "chair": "Luis Ho",
+        "schedule": [
+            {"time": "11:00-11:30", "name": "A. Fox (I)"},
+            {"time": "11:30-11:45", "name": "G. Hensler"},
+            {"time": "11:45-12:00", "name": "S. Pardy"},
+            {"time": "12:00-12:15", "name": "G. Pezzulli"},
+            {"time": "12:15-12:30", "name": "S. Boissier"},
+            {"time": "12:30-12:45", "name": "B. Henriques"}
+        ]
+    },
+    {
+        "name": "Poster Talks (12:45-13:15)"
+    },
+    {
+        "name": "Free Afternoon"
+    },
+    {
+        "name": "Tour and conference dinner"
     }]
 },
 {
     "date": "Thursday, 5 October 2017",
     "schedule": [{
-        "name": "Session 7: The role of gas in galaxy mergers"
+        "name": "Galaxy mergers",
+        "chair": "Kristine Spekkens",
+        "schedule": [
+            {"time": "9:00-9:30", "name": "F. Renault (I)"},
+            {"time": "9:30-9:45", "name": "S. K\u00f6nig"},
+            {"time": "9:45-10:00", "name": "R. Grand"},
+            {"time": "10:00-10:15", "name": "M. Puech "},
+            {"time": "10:15-10:30", "name": "Z. Li"}
+        ]
     },
     {
-        "name": "Session 8: Gas in satellite galaxies"
+        "name": "Coffee (10:30-11:00)"
+    },
+    {
+        "name": "Gas in dwarf and satellite galaxies",
+        "chair": "Patricia Tissera",
+        "schedule": [
+            {"time": "11:00-11:30", "name": "L. Hunt (I)"},
+            {"time": "11:30-11:45", "name": "C. Power"},
+            {"time": "11:45-12:00", "name": "B. Smart"},
+            {"time": "12:00-12:15", "name": "M. Safarzadeh"},
+            {"time": "12:15-12:30", "name": "A. Noble"}
+        ]
+    },
+    {
+        "name": "Lunch Break"
+    },
+    {
+        "name": "Gas in dwarf and satellite galaxies (continued)",
+        "chair": "Patricia Tissera",
+        "schedule": [
+            {"time": "14:00-14:15", "name": "G. Gajda"},
+            {"time": "14:15-14:30", "name": "A. Marasco"},
+            {"time": "14:30-14:45", "name": "A. Dutton"},
+            {"time": "14:45-15:00", "name": "T. Ashley"},
+            {"time": "15:00-15:15", "name": "B. Adams"}
+        ]
+    },
+    {
+        "name": "Gas in high redshift galaxies",
+        "chair": "Jin Koda",
+        "schedule" : [
+            {"time": "15:15-15:30", "name": "S. Kassin"},
+            {"time": "15:30-15:45", "name": "J. Caruana"},
+            {"time": "15:45-16:00", "name": "M. Dessauges-Zavadsky"}
+        ]
+    },
+    {
+        "name": "Coffee (16:00-16:30)"
+    },
+    {
+        "name": "Poster Taks (16:30-18:00)"
+    },
+    {
+        "name": "Outreach Event (starts at 19:30)"
     }]
 },
 {
     "date": "Friday, 6 October 2017",
     "schedule": [{
-        "name": "Session 9: Quenching of galaxies"
+        "name": "Gas in high redshift galaxies (continued)",
+        "chair": "Susan Kassin",
+        "schedule": [
+            {"time": "9:00-9:15", "name": "K. Xu"},
+            {"time": "9:15-9:30", "name": "M. Girard"},
+            {"time": "9:30-9:45", "name": "C.-C. Chen"},
+            {"time": "9:45-10:00", "name": "A. Man "},
+            {"time": "10:00-10:15", "name": "T. Buck"},
+            {"time": "10:15-10:30", "name": "S. Khoperskov"}
+        ]
     },
     {
-        "name": "Session 10: Quenching of galaxies"
+        "name": "Coffee (10:30-11:00)"
+    },
+    {
+        "name": "Quenching",
+        "chair": "Chris Power",
+        "schedule": [
+            {"time": "11:00-11:30", "name": "S. Lilly  (I)"},
+            {"time": "11:30-12:00", "name": "L. Hernquist"},
+            {"time": "12:00-12:15", "name": "R. Weinberger"},
+            {"time": "12:15-12:30", "name": "O. Sil’chenko"},
+        ]
+    },
+    {
+        "name": "Lunch Break"
+    },
+    {
+        "name": "Quenching (continued)",
+        "chair": "Chris Power",
+        "schedule": [
+            {"time": "14:15-14:30", "name": "M. Giavalisco"},
+            {"time": "14:30-14:45", "name": "E. D’Onghia"},
+            {"time": "14:45-15:00", "name": "F. Santoro"},
+            {"time": "15:00-15:15", "name": "E. Romano-Diaz"},
+            {"time": "15:15-15:30", "name": "C. Simpson"}
+        ]
+    },
+    {
+        "name": "Coffee (15:30-16:00)"
+    },
+    {
+        "name": "Conference Summary by K. Freeman (16:00-16:30)"
     }]
 }]
